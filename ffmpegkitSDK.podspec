@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |spec|
 
-spec.name         = "ffmpegkitSDK"
+spec.name         = "https://github.com/dota2AndTI/ffmpegkitSDK"
 spec.version      = "0.0.1"
 spec.summary      = "A short description of ffmpegkitSDK."
 
@@ -32,8 +32,8 @@ spec.source_files  = "ffmpegkitSDK/Lib/*"
 #  the lib prefix of their name.
 #
 
-# spec.framework  = "SomeFramework"
-spec.vendored_frameworks = 'ffmpegkit.framework', 'libavcodec.framework', 'libavdevice.framework', 'libavfilter.framework', 'libavformat.framework', 'libavutil.framework', 'libswresample.framework', 'libswscale.framework'
+# spec.framework  = "SomeFramework", 'libavcodec.framework', 'libavdevice.framework', 'libavfilter.framework', 'libavformat.framework', 'libavutil.framework', 'libswresample.framework', 'libswscale.framework'
+spec.vendored_frameworks = "ffmpegkit.framework"
 
 # spec.library   = "iconv"
 # spec.libraries = "iconv", "xml2"
