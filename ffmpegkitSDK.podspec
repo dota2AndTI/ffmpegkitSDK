@@ -8,10 +8,11 @@ spec.summary      = "A short description of ffmpegkitSDK."
 
 spec.homepage     = "ffmpegkitSDK"
 
-spec.author       = { "xxxxx" => "xxxx" }
+spec.license          = { :type => 'MIT', :file => 'LICENSE' }
+spec.author           = { 'xxx' => 'ffmpegkitSDK' }
+spec.source           = { :git => 'ffmpegkitSDK', :tag => spec.version.to_s }
 
 
-spec.platform     = :ios
 spec.platform     = :ios, "13.0"
 
 spec.source_files  = "ffmpegkitSDK/Lib/*"
