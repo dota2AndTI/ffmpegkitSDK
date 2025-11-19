@@ -15,7 +15,7 @@ spec.source           = { :git => 'ffmpegkitSDK', :tag => spec.version.to_s }
 
 spec.platform     = :ios, "13.0"
 
-spec.source_files  = "ffmpegkitSDK/Lib/*"
+# spec.source_files  = "ffmpegkitSDK/Lib/*"
 # spec.exclude_files = "Classes/Exclude"
 
 # spec.public_header_files = "Classes/**/*.h"
@@ -33,7 +33,7 @@ spec.source_files  = "ffmpegkitSDK/Lib/*"
 #
 
 # spec.framework  = "SomeFramework"
-# spec.frameworks = "SomeFramework", "AnotherFramework"
+ spec.frameworks = "ffmpegkit", "libavcodec", "libavdevice", "libavfilter", "libavformat", "libavutil", "libswresample", "libswscale"
 
 # spec.library   = "iconv"
 # spec.libraries = "iconv", "xml2"
