@@ -8,7 +8,7 @@ spec.summary      = "A short description of ffmpegkitSDK."
 
 spec.homepage     = "ffmpegkitSDK"
 
-spec.author             = { "cao yulong" => "az@duodianmeihao.com" }
+spec.author       = { "xxxxx" => "xxxx" }
 
 
 spec.platform     = :ios
