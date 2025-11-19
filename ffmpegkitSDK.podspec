@@ -26,8 +26,8 @@ spec.source_files  = "ffmpegkitSDK/Lib/*"
 # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
-# spec.framework  = "SomeFramework", 'libavcodec.framework', 'libavdevice.framework', 'libavfilter.framework', 'libavformat.framework', 'libavutil.framework', 'libswresample.framework', 'libswscale.framework'
- spec.vendored_frameworks = 'Libs/ffmpegkit.framework'
+# spec.framework  = "SomeFramework"
+ spec.vendored_frameworks = 'Libs/ffmpegkit.framework', 'Libs/libavcodec.framework', 'Libs/libavdevice.framework', 'Libs/libavfilter.framework', 'Libs/libavformat.framework', 'Libs/libavutil.framework', 'Libs/libswresample.framework', 'Libs/libswscale.framework'
 
 # spec.library   = "iconv"
 # spec.libraries = "iconv", "xml2"
