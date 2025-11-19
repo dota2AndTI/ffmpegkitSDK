@@ -33,6 +33,7 @@
 		8C98723D2ECDBE3E00329FA3 /* libavutil.framework in Resources */ = {isa = PBXBuildFile; fileRef = 8C98721B2ECDBC7100329FA3 /* libavutil.framework */; };
 		8C98723E2ECDBE3E00329FA3 /* libswresample.framework in Resources */ = {isa = PBXBuildFile; fileRef = 8C98721C2ECDBC7100329FA3 /* libswresample.framework */; };
 		8C98723F2ECDBE3E00329FA3 /* libswscale.framework in Resources */ = {isa = PBXBuildFile; fileRef = 8C98721D2ECDBC7100329FA3 /* libswscale.framework */; };
+		8C9872412ECDC8DF00329FA3 /* ffmpegkitSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8C9872402ECDC8DF00329FA3 /* ffmpegkitSDK.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +69,7 @@
 		8C98721B2ECDBC7100329FA3 /* libavutil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavutil.framework; sourceTree = "<group>"; };
 		8C98721C2ECDBC7100329FA3 /* libswresample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswresample.framework; sourceTree = "<group>"; };
 		8C98721D2ECDBC7100329FA3 /* libswscale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswscale.framework; sourceTree = "<group>"; };
+		8C9872402ECDC8DF00329FA3 /* ffmpegkitSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffmpegkitSDK.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				8C98721E2ECDBC7100329FA3 /* Libs */,
 				8C9872132ECDB93700329FA3 /* ffmpegkitSDK */,
 				8C9872052ECDB92400329FA3 /* Products */,
+				8C9872402ECDC8DF00329FA3 /* ffmpegkitSDK.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,6 +210,7 @@
 				8C9872392ECDBE3E00329FA3 /* libavcodec.framework in Resources */,
 				8C98723A2ECDBE3E00329FA3 /* libavdevice.framework in Resources */,
 				8C98723B2ECDBE3E00329FA3 /* libavfilter.framework in Resources */,
+				8C9872412ECDC8DF00329FA3 /* ffmpegkitSDK.podspec in Resources */,
 				8C98723C2ECDBE3E00329FA3 /* libavformat.framework in Resources */,
 				8C98723D2ECDBE3E00329FA3 /* libavutil.framework in Resources */,
 				8C98723E2ECDBE3E00329FA3 /* libswresample.framework in Resources */,
