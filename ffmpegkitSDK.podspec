@@ -6,11 +6,11 @@ spec.name         = "ffmpegkitSDK"
 spec.version      = "0.0.1"
 spec.summary      = "A short description of ffmpegkitSDK."
 
-spec.homepage     = "https://github.com/dota2AndTI/ffmpegkitSDK"
+spec.homepage     = "xxxx"
 
 spec.license          = { :type => 'MIT', :file => 'LICENSE' }
-spec.author           = { 'xxx' => 'ffmpegkitSDK' }
-spec.source           = { :git => 'ffmpegkitSDK', :tag => spec.version.to_s }
+spec.author           = { 'xxx' => 'xxxx' }
+spec.source           = { :git => 'xxxx', :tag => spec.version.to_s }
 
 
 spec.platform     = :ios, "13.0"
