@@ -2,11 +2,11 @@
 
 Pod::Spec.new do |spec|
 
-spec.name         = "https://github.com/dota2AndTI/ffmpegkitSDK"
+spec.name         = "ffmpegkitSDK"
 spec.version      = "0.0.1"
 spec.summary      = "A short description of ffmpegkitSDK."
 
-spec.homepage     = "ffmpegkitSDK"
+spec.homepage     = "https://github.com/dota2AndTI/ffmpegkitSDK"
 
 spec.license          = { :type => 'MIT', :file => 'LICENSE' }
 spec.author           = { 'xxx' => 'ffmpegkitSDK' }
