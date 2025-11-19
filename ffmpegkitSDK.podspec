@@ -27,7 +27,7 @@ spec.source_files  = "ffmpegkitSDK/Lib/*"
 
 
 # spec.framework  = "SomeFramework", 'libavcodec.framework', 'libavdevice.framework', 'libavfilter.framework', 'libavformat.framework', 'libavutil.framework', 'libswresample.framework', 'libswscale.framework'
-# spec.vendored_frameworks = 'Libs/ffmpegkit.framework'
+ spec.vendored_frameworks = 'Libs/ffmpegkit.framework'
 
 # spec.library   = "iconv"
 # spec.libraries = "iconv", "xml2"
