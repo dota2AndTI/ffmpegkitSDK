@@ -26,14 +26,8 @@ spec.source_files  = "ffmpegkitSDK/Lib/*"
 # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
-# ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-#
-#  Link your library with frameworks, or libraries. Libraries do not include
-#  the lib prefix of their name.
-#
-
 # spec.framework  = "SomeFramework", 'libavcodec.framework', 'libavdevice.framework', 'libavfilter.framework', 'libavformat.framework', 'libavutil.framework', 'libswresample.framework', 'libswscale.framework'
-spec.vendored_frameworks = 'ffmpegkit.framework'
+# spec.vendored_frameworks = 'Libs/ffmpegkit.framework'
 
 # spec.library   = "iconv"
 # spec.libraries = "iconv", "xml2"
