@@ -112,6 +112,7 @@
 		8C9872132ECDB93700329FA3 /* ffmpegkitSDK */ = {
 			isa = PBXGroup;
 			children = (
+				8CEEE70D2ED71D8200840455 /* Test */,
 				8C9872112ECDB93700329FA3 /* ffmpegkitSDK.h */,
 				8C9872122ECDB93700329FA3 /* ffmpegkitSDK.docc */,
 			);
@@ -131,6 +132,13 @@
 				8C98721D2ECDBC7100329FA3 /* libswscale.framework */,
 			);
 			path = Libs;
+			sourceTree = "<group>";
+		};
+		8CEEE70D2ED71D8200840455 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "ffmpegkitSDK"
-spec.version      = "0.0.1"
+spec.version      = "0.0.2"
 spec.summary      = "A short description of ffmpegkitSDK."
 
 spec.homepage     = "xxxx"
@@ -27,7 +27,7 @@ spec.source_files  = "ffmpegkitSDK/Lib/*"
 
 
 # spec.framework  = "SomeFramework"
- spec.vendored_frameworks = 'Libs/ffmpegkit.framework', 'Libs/libavcodec.framework', 'Libs/libavdevice.framework', 'Libs/libavfilter.framework', 'Libs/libavformat.framework', 'Libs/libavutil.framework', 'Libs/libswresample.framework', 'Libs/libswscale.framework'
+ spec.vendored_frameworks = 'Libs/ffmpegkit.xcframework', 'Libs/libavcodec.xcframework', 'Libs/libavdevice.xcframework', 'Libs/libavfilter.xcframework', 'Libs/libavformat.xcframework', 'Libs/libavutil.xcframework', 'Libs/libswresample.xcframework', 'Libs/libswscale.xcframework'
 
 # spec.library   = "iconv"
 # spec.libraries = "iconv", "xml2"
