@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "ffmpegkitSDK"
-spec.version      = "0.0.2"
+spec.version      = "0.0.3"
 spec.summary      = "A short description of ffmpegkitSDK."
 
 spec.homepage     = "xxxx"
